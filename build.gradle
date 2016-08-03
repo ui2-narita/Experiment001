@@ -1,0 +1,18 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.projectlombok:lombok:1.16.8',
+	'com.opencsv:opencsv:3.8',
+	'com.fasterxml.jackson.core:jackson-databind:2.8.1',
+	'org.apache.commons:commons-lang3:3.4',
+	'org.apache.commons:commons-csv:1.4',
+	'org.slf4j:slf4j-api:1.7.21',
+	'ch.qos.logback:logback-core:1.1.7',
+	'ch.qos.logback:logback-classic:1.1.7'
+	testCompile 'junit:junit:4.+'
+}
